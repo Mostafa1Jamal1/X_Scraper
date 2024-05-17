@@ -98,9 +98,9 @@ if __name__ == "__main__":
         time_interval = time_units[time_unit] * int(argv[3])
         main(file_path, ticker, time_interval)
     except Exception:
-        print("Usage: python3 test.py accounts.txt Ticker time_interval mins/hours/days/weeks")
+        print("Usage: python3 Stock_scraper.py accounts.txt Ticker time_interval mins/hours/days/weeks")
         print("where:\n\ttime_interval is an integer")
         print("\ttime_unit is one of: mins, hours, days, weeks")
         print("\tTicker is a string to search for")
         print("\taccounts.txt is a path to a file containing list of twitter account links")
-        print("\nExample: python3 test.py accounts.txt TSLA 24 hours\n")
+        print("\nExample: python3 Stock_scraper.py accounts.txt TSLA 24 hours\n")
